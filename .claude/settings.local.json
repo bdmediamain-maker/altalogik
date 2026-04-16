@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -l \"logo-text\" *.html)",
+      "Bash(sed:*)",
+      "Bash(sed -i 's|href=\"chi-siamo.html\" class=\"nav-link\"|href=\"chi-siamo.html\" class=\"nav-link nav-link--active\"|g' chi-siamo.html)",
+      "Bash(sed -i 's|href=\"servizi.html\" class=\"nav-link\"|href=\"servizi.html\" class=\"nav-link nav-link--active\"|g' servizi.html)",
+      "Bash(sed -i 's|href=\"case-study.html\" class=\"nav-link\"|href=\"case-study.html\" class=\"nav-link nav-link--active\"|g' case-study.html)",
+      "Bash(sed -i 's|href=\"case-study.html\" class=\"nav-link\"|href=\"case-study.html\" class=\"nav-link nav-link--active\"|g' case-study-01.html case-study-02.html case-study-03.html case-study-04.html case-study-05.html)",
+      "Bash(sed -i 's|href=\"partner.html\" class=\"nav-link\"|href=\"partner.html\" class=\"nav-link nav-link--active\"|g' partner.html)",
+      "Bash(sed -i 's|src=\"assets/images/placeholder.svg\"|src=\"assets/images/placeholder-01.svg\"|g' case-study-01.html)",
+      "Bash(sed -i 's|src=\"assets/images/placeholder.svg\"|src=\"assets/images/placeholder-02.svg\"|g' case-study-02.html)",
+      "Bash(sed -i 's|src=\"assets/images/placeholder.svg\"|src=\"assets/images/placeholder-03.svg\"|g' case-study-03.html)",
+      "Bash(sed -i 's|src=\"assets/images/placeholder.svg\"|src=\"assets/images/placeholder-04.svg\"|g' case-study-04.html)",
+      "Bash(sed -i 's|src=\"assets/images/placeholder.svg\"|src=\"assets/images/placeholder-05.svg\"|g' case-study-05.html)",
+      "Bash(cp office-team.jpg grid-1.jpg)",
+      "Bash(cp office-1.jpg    grid-2.jpg)",
+      "Bash(cp office-3.jpg    grid-3.jpg)",
+      "Bash(cp office-2.jpg    grid-4.jpg)",
+      "Bash(cp office.jpg      grid-5.jpg)",
+      "Bash(python3 -)",
+      "Bash(powershell -Command ':*)",
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(grep -E \"\\\\.\\(jpg|jpeg|png\\)$\")",
+      "Bash(cp \"C:/Users/ervin/Downloads/CHI SIAMOsmall tech team office working.jpg\" \"C:/Users/ervin/Downloads/altalogik-site/assets/images/CHI_SIAMOsmall_tech_team_office_working.jpg\")",
+      "Bash(cp \"C:/Users/ervin/Downloads/CS01automotive dashboard software.jpg\" \"C:/Users/ervin/Downloads/altalogik-site/assets/images/CS01automotive_dashboard_software.jpg\")",
+      "Bash(cp \"C:/Users/ervin/Downloads/CS02 clothing brand b2b.jpg\" \"C:/Users/ervin/Downloads/altalogik-site/assets/images/CS02_clothing_brand_b2b.jpg\")",
+      "Bash(cp \"C:/Users/ervin/Downloads/CS03doctor computer medical records.jpg\" \"C:/Users/ervin/Downloads/altalogik-site/assets/images/CS03doctor_computer_medical_records.jpg\")",
+      "Bash(cp \"C:/Users/ervin/Downloads/CS04container port terminal aerial.jpg\" \"C:/Users/ervin/Downloads/altalogik-site/assets/images/CS04container_port_terminal_aerial.jpg\")",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(node compress-images.mjs)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1F3C"/>
+      <stop offset="50%" stop-color="#0F2540"/>
+      <stop offset="100%" stop-color="#071828"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5A0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0055CC" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#accent)"/>
+  <!-- Grid lines -->
+  <g stroke="#7A9CC0" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="240" y1="0" x2="240" y2="675"/>
+    <line x1="480" y1="0" x2="480" y2="675"/>
+    <line x1="720" y1="0" x2="720" y2="675"/>
+    <line x1="960" y1="0" x2="960" y2="675"/>
+  </g>
+  <text x="600" y="330" text-anchor="middle" dominant-baseline="middle"
+        font-family="monospace" font-size="14" fill="#7A9CC0" opacity="0.4"
+        letter-spacing="4">ALTALOGIK — IMAGE PLACEHOLDER</text>
+</svg>
