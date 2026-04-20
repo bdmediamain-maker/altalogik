@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/ervin/Downloads/altalogik-site/**)",
+      "Bash(grep -ri \"calendly\" --include=\"*.html\" --include=\"*.css\" --include=\"*.js\" -l)",
+      "Bash(grep -ri \"calendly\" --include=\"*.css\" -l)",
+      "Bash(grep -ri \"calendly\" --include=\"*.js\" -l)",
+      "Bash(python3 -)"
+    ]
+  }
+}
