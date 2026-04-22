@@ -7,8 +7,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SaaS Fintech Pagamenti — Case Study 05 — Altalogik</title>
-  <meta name="description" content="Come abbiamo costruito un SaaS di gestione pagamenti che ha processato 2 milioni di transazioni senza interruzioni.">
+  <title>Catena Ristorativa — Case Study 05 — Altalogik</title>
+  <meta name="description" content="Come una catena di tre ristoranti ha eliminato le prenotazioni perse, ridotto il carico sullo staff e trasformato il menu digitale in uno strumento di vendita attivo.">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -51,11 +51,10 @@
     <div class="container">
       <p class="page-breadcrumb">/ case study / 05</p>
       <h1 class="page-title">
-        Due milioni di transazioni.<br>
-        <span class="gradient-text">Zero downtime.</span>
+        Il sabato sera<br><span class="gradient-text">senza telefono.</span>
       </h1>
       <p class="page-subtitle">
-        Una startup fintech che aveva bisogno di un'infrastruttura di pagamento affidabile sin dal giorno uno. Abbiamo costruito per reggere, non per partire.
+        Come una catena di tre ristoranti ha automatizzato prenotazioni, messaggi e menu con un sistema AI integrato, recuperando 12 coperti a serata e aggiungendo il 12% sul valore medio coperto.
       </p>
     </div>
   </section>
@@ -65,61 +64,66 @@
     <div class="container">
 
       <div class="cs-hero-img">
-        <img src="assets/images/CS05fintech_payment_dashboard.jpg" alt="SaaS Fintech Pagamenti" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+        <img src="assets/images/CS05_catena_ristorativa.jpg" alt="Catena Ristorativa — Altalogik" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
       </div>
 
       <div class="cs-meta-row reveal-on-scroll">
         <div class="cs-meta-cell">
           <span class="cs-meta-label">Settore</span>
-          <span class="cs-meta-value">Fintech</span>
+          <span class="cs-meta-value">Ristorazione — Catena locale</span>
         </div>
         <div class="cs-meta-cell">
-          <span class="cs-meta-label">Servizi</span>
-          <span class="cs-meta-value">Sviluppo Custom, Cloud &amp; DevOps</span>
+          <span class="cs-meta-label">Soluzione</span>
+          <span class="cs-meta-value">Agente AI Vocale + WhatsApp + Menu AI</span>
         </div>
         <div class="cs-meta-cell">
-          <span class="cs-meta-label">Durata</span>
-          <span class="cs-meta-value">8 mesi</span>
+          <span class="cs-meta-label">Stato</span>
+          <span class="cs-meta-value">In produzione</span>
         </div>
         <div class="cs-meta-cell">
           <span class="cs-meta-label">Risultato chiave</span>
-          <span class="cs-meta-value" style="background:var(--gradient-brand);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:700;">2M+ transazioni, 0 downtime</span>
+          <span class="cs-meta-value" style="background:var(--gradient-brand);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:700;">−80% posti persi</span>
         </div>
       </div>
 
       <div class="cs-body-section reveal-on-scroll">
         <h2>Il problema</h2>
-        <p>Una startup fintech aveva ottenuto le licenze per operare come istituto di pagamento e aveva bisogno di costruire la propria infrastruttura tecnologica da zero in 8 mesi — il termine imposto dalla licenza. Il requisito tecnico era chiaro: un sistema in grado di processare pagamenti in tempo reale con SLA di disponibilità del 99.9% e conformità PCI-DSS.</p>
-        <p>Il team interno aveva competenze di prodotto ma non di ingegneria distribuita. Costruire in casa avrebbe richiesto 18-24 mesi. Il mercato dei vendor non offriva soluzioni configurabili con il livello di controllo che il modello di business richiedeva.</p>
+        <p>Una catena familiare con tre locali nell'area bolognese: cucina tradizionale emiliana, un posizionamento solido e una clientela affezionata. Dal martedì alla domenica, i tre locali insieme gestiscono circa 180 coperti a serata.</p>
+        <p>Il problema non era la qualità del cibo. Era tutto quello che succedeva prima e dopo il pasto: le telefonate per prenotare che squillavano nel pieno del servizio, i messaggi WhatsApp senza risposta, lo staff che interrompeva il lavoro per rispondere a domande sul menu, le serate sold-out con posti liberi perché nessuno aveva aggiornato il gestionale. Tre locali, tre numeri diversi, nessuna visione centralizzata.</p>
+        <p><em>"Avevamo tre telefoni che squillavano contemporaneamente durante il sabato sera. La mia responsabile di sala passava 40 minuti a ora a rispondere alle prenotazioni invece di stare in sala. A fine serata scoprivamo che avevamo lasciato 12 posti vuoti per disdette arrivate su WhatsApp che nessuno aveva visto."</em></p>
       </div>
 
       <div class="cs-body-section reveal-on-scroll">
         <h2>La soluzione</h2>
-        <p>Abbiamo costruito l'infrastruttura completa: core bancario per la gestione dei conti e dei saldi, motore di pagamento con integrazione SEPA e carte, dashboard operativa per il team interno, portale API per i merchant. L'architettura è event-driven con code di messaggi per garantire consistenza anche sotto carico.</p>
-        <p>L'infrastruttura cloud su AWS è deployata in configurazione multi-AZ con failover automatico in meno di 30 secondi. Il pipeline CI/CD permette rilasci senza interruzione di servizio. Il sistema è PCI-DSS compliant con audit trail completo di ogni operazione.</p>
+        <p>Altalogik ha sviluppato un sistema integrato su tre livelli, pensato per operare in autonomia senza richiedere intervento manuale sulle attività di primo contatto.</p>
+        <p><strong>Agente AI vocale h24:</strong> risponde alle chiamate in entrata, gestisce prenotazioni, conferme e disdette, aggiorna in tempo reale il calendario dei coperti. Fuori orario, registra il messaggio e invia una notifica allo staff. Il sabato sera nessun telefono squilla più in sala.</p>
+        <p><strong>Agente WhatsApp Business:</strong> risponde in automatico ai messaggi su tutti e tre i numeri aziendali. Conferma prenotazioni, risponde a domande su allergeni e piatti del giorno, invia promemoria 2 ore prima della prenotazione riducendo drasticamente i no-show. Lo staff subentra solo quando è necessario il giudizio umano.</p>
+        <p><strong>Menu digitale AI:</strong> accessibile via QR code al tavolo, registra i piatti più consultati, suggerisce abbinamenti vino-portata, propone il dessert del giorno nel momento giusto. Ogni interazione costruisce un dataset anonimizzato sulle preferenze della clientela visibile in dashboard.</p>
+        <p><strong>Dashboard centralizzata:</strong> un unico pannello per tutti e tre i locali con prenotazioni in tempo reale, coperti disponibili, andamento delle serate, performance del menu. Per la prima volta, il titolare gestisce un sistema unico con tre punti operativi invece di tre ristoranti separati.</p>
       </div>
 
       <div class="cs-body-section reveal-on-scroll">
         <h2>I risultati</h2>
         <div class="cs-results-strip">
           <div class="cs-result-tile">
-            <span class="cs-result-n">2M+</span>
-            <p class="cs-result-desc">transazioni processate nei primi 12 mesi di operatività</p>
+            <span class="cs-result-n">−80%</span>
+            <p class="cs-result-desc">posti persi per disdette non gestite: da 8-15 coperti a serata grazie ai promemoria automatici</p>
           </div>
           <div class="cs-result-tile">
-            <span class="cs-result-n">99.97%</span>
-            <p class="cs-result-desc">uptime effettivo nel primo anno, superiore al target contrattuale</p>
+            <span class="cs-result-n">+12%</span>
+            <p class="cs-result-desc">valore medio coperto nel primo mese grazie all'upsell del menu digitale AI</p>
           </div>
           <div class="cs-result-tile">
-            <span class="cs-result-n">8 mesi</span>
-            <p class="cs-result-desc">da zero a sistema in produzione, nel rispetto della scadenza normativa</p>
+            <span class="cs-result-n">&lt;5min</span>
+            <p class="cs-result-desc">tempo staff su prenotazioni e informazioni a sera: da 35-50 minuti per locale</p>
           </div>
         </div>
+        <p style="margin-top:2rem;"><em>"Il titolare non gestisce più tre ristoranti separati. Gestisce un sistema unico con tre punti operativi."</em></p>
       </div>
 
       <div class="cs-nav">
-        <a href="case-study-04.html">← Case study precedente</a>
-        <a href="case-study.html">Tutti i case study →</a>
+        <a href="case-study.html">← Tutti i case study</a>
+        <a href="case-study-01.html">Case study successivo →</a>
       </div>
 
     </div>
